@@ -1,0 +1,32 @@
+{
+  "contactos": [
+    {
+      "id": "1d3f",
+      "nombre": "Gustavo Adolfo Bolaños dorado",
+      "telefono": "3217532037",
+      "correo": "gabodorado@gmail.com",
+      "etiqueta": "profe"
+    },
+    {
+      "nombre": "Miguel ",
+      "telefono": "3105554789",
+      "correo": "Melano@gmail.com",
+      "etiqueta": "",
+      "id": "002e"
+    },
+    {
+      "id": "01c8",
+      "nombre": "Villa",
+      "telefono": "3105553789",
+      "correo": "Goloso@gmail.com",
+      "etiqueta": ""
+    },
+    {
+      "nombre": "Alberto m",
+      "telefono": "3103339820",
+      "correo": "einsten@gmail.com",
+      "etiqueta": "Cerebero",
+      "id": "a8fb"
+    }
+  ]
+}

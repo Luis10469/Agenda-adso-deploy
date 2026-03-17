@@ -1,0 +1,81 @@
+:root {
+  --morado: #0fcc32;
+  --morado-oscuro: #26ce10;
+  --gris: #374151;
+  --borde: #b1d0ff;
+  --error: #dc2626;
+  --radio: 10px;
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  background: #697888;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: var(--gris);
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--morado);
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.form-contacto {
+  background: #cf8e8e;
+  padding: 1rem;
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+input {
+  padding: 0.65rem;
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+}
+
+.btn-primario {
+  background: var(--morado);
+  color: white;
+  padding: 0.7rem;
+  border: 0;
+  border-radius: var(--radio);
+  cursor: pointer;
+}
+
+.tarjeta-contacto {
+  background: #fff;
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: 1rem;
+  margin-top: 0.7rem;
+}
+
+.acciones {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-eliminar {
+  background: var(--error);
+  color: white;
+  padding: 0.45rem 0.75rem;
+  border: 0;
+  border-radius: var(--radio);
+  cursor: pointer;
+}
